@@ -1,7 +1,6 @@
-cff-version: 1.2.0
+cff-version: 1.1.0
 message: "If you use this design or its results, please cite it as below."
 title: "Drone-Stabilized Passive Dynamic Walker (open-source hardware)"
-type: software
 authors:
   - family-names: "Ishida"
     given-names: "Eiri"
@@ -23,6 +22,8 @@ abstract: >
   zero falls over the whole pump range with an exact kinematic stride
   (Gen-6). Includes FreeCAD sources, engineering drawings, PyBullet
   physics/control code, gait trajectories, Blender rigs, and videos.
+  Licensed under CERN-OHL-S-2.0 (hardware), MIT (code), and CC-BY-SA-4.0
+  (documentation and media); see LICENSES/ in the repository.
 keywords:
   - passive dynamic walking
   - buoyancy stabilization
@@ -33,10 +34,6 @@ keywords:
   - parallelogram linkage
   - gear-synchronized parallel cranks
   - open source hardware
-license:
-  - CERN-OHL-S-2.0
-  - MIT
-  - CC-BY-SA-4.0
-# doi: 10.5281/zenodo.XXXXXXX   # ← Zenodo発行後に記入
+# doi: 10.5281/zenodo.XXXXXXX   # fill in after the Zenodo DOI is issued
 version: 1.0.0
 date-released: 2026-07-28
