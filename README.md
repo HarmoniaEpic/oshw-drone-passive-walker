@@ -8,6 +8,8 @@ passive pendulum dynamics.**
 
 > "A non-flying airship with legs."
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21629977.svg)](https://doi.org/10.5281/zenodo.21629977)
+
 ---
 
 ## English summary
@@ -129,7 +131,7 @@ Key prior art acknowledged:
 
 ## Status / OSHW
 
-- [ ] Zenodo DOI: *to be assigned on first release*
+- [x] Zenodo DOI: [10.5281/zenodo.21629977](https://doi.org/10.5281/zenodo.21629977)
 - [ ] OSHWA self-certification (JP): *pending — apply after first tagged release*
 - Simulation-validated; no physical build yet. Real-scale note: B=13 N of
   helium lift requires ≈1.3 m³ (sphere Ø≈1.4 m); the modeled envelopes are

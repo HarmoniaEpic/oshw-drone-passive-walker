@@ -34,6 +34,6 @@ keywords:
   - parallelogram linkage
   - gear-synchronized parallel cranks
   - open source hardware
-# doi: 10.5281/zenodo.XXXXXXX   # fill in after the Zenodo DOI is issued
+doi: 10.5281/zenodo.21629977
 version: 1.0.0
 date-released: 2026-07-28
