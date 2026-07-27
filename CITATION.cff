@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this design or its results, please cite it as below."
+title: "Drone-Stabilized Passive Dynamic Walker (open-source hardware)"
+type: software
+authors:
+  - family-names: "Ishida"
+    given-names: "Eiri"
+abstract: >
+  A McGeer-type kneed passive dynamic walker stabilized attitude-only from
+  above the virtual pivot point: by drone thrust (Gen-1) or partial helium
+  buoyancy (Gen-2 spherical envelope, Gen-3 airship hull with cruciform
+  tail). The passive limit cycle is preserved; buoyancy is kept within the
+  37-94% weight operating window (52%W recommended) so the legs remain
+  loaded; horizontal fan thrust replaces the slope as the energy top-up.
+  Includes FreeCAD sources, engineering drawings, PyBullet physics/control
+  code, gait trajectories, and videos.
+keywords:
+  - passive dynamic walking
+  - buoyancy stabilization
+  - virtual pivot point
+  - open source hardware
+license: CERN-OHL-S-2.0
+# doi: 10.5281/zenodo.XXXXXXX   # ← Zenodo発行後に記入
+version: 1.0.0
+date-released: 2026-07-27
