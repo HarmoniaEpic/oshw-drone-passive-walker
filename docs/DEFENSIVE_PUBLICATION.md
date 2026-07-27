@@ -22,9 +22,9 @@
 
 ## 2. Zenodo で DOI 取得（公知日の証明）
 
-- [ ] zenodo.org に GitHub 連携でログイン → 対象リポジトリの連携を ON
-- [ ] リリースを切ると自動でアーカイブされ DOI が発行される
-- [ ] 発行された DOI を README の Status 欄と CITATION.cff に記入
+- [x] zenodo.org に GitHub 連携でログイン → 対象リポジトリの連携を ON
+- [x] リリースを切ると自動でアーカイブされ DOI が発行される
+- [x] 発行された DOI を README の Status 欄と CITATION.cff に記入
 - [ ] メタデータ: resource type = Software / Dataset、キーワードに
       "passive dynamic walking", "buoyancy stabilization", "open source hardware"
 
@@ -55,5 +55,5 @@
 | 日付 | 事項 | 証跡 |
 |------|------|------|
 |      | GitHub 初回公開 | commit hash: |
-|      | Zenodo DOI 発行 | DOI: |
+| 2026-07-28 | Zenodo DOI 発行 | DOI: 10.5281/zenodo.21629977 |
 |      | 公開技報掲載 | 技報番号: |
