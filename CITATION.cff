@@ -6,20 +6,37 @@ authors:
   - family-names: "Ishida"
     given-names: "Eiri"
 abstract: >
-  A McGeer-type kneed passive dynamic walker stabilized attitude-only from
-  above the virtual pivot point: by drone thrust (Gen-1) or partial helium
-  buoyancy (Gen-2 spherical envelope, Gen-3 airship hull with cruciform
-  tail). The passive limit cycle is preserved; buoyancy is kept within the
-  37-94% weight operating window (52%W recommended) so the legs remain
-  loaded; horizontal fan thrust replaces the slope as the energy top-up.
-  Includes FreeCAD sources, engineering drawings, PyBullet physics/control
-  code, gait trajectories, and videos.
+  Six simulation-validated generations of a McGeer-type passive dynamic
+  walker whose inverted-pendulum instability is tamed without sacrificing
+  the passive limit cycle. Gen-1..3 stabilize attitude only from above the
+  virtual pivot point: by drone thrust (Gen-1) or partial helium buoyancy
+  kept within the 37-94% weight operating window so the legs remain loaded
+  (Gen-2 spherical envelope, Gen-3 airship hull with cruciform tail);
+  horizontal fan thrust replaces the slope as the energy top-up.
+  Gen-4..6 descend from the karakuri "dankaeri" tumbling doll and walk by
+  water transfer alone on mass geometry: water-ballasted feet with one-way
+  half-kamaboko rocker soles and an escapement-quantized crank (Gen-4),
+  crank-mounted tanks with hollow conduit arms and a hub pump/valve so the
+  whole body somersaults dankaeri-fashion (Gen-5), and gear-locked
+  parallelogram legs guided by twin same-phase cranks - the tank crank
+  alone somersaults, the body stays upright, and the machine achieves
+  zero falls over the whole pump range with an exact kinematic stride
+  (Gen-6). Includes FreeCAD sources, engineering drawings, PyBullet
+  physics/control code, gait trajectories, Blender rigs, and videos.
 keywords:
   - passive dynamic walking
   - buoyancy stabilization
   - virtual pivot point
+  - karakuri
+  - dankaeri tumbling doll
+  - water ballast propulsion
+  - parallelogram linkage
+  - gear-synchronized parallel cranks
   - open source hardware
-license: CERN-OHL-S-2.0
+license:
+  - CERN-OHL-S-2.0
+  - MIT
+  - CC-BY-SA-4.0
 # doi: 10.5281/zenodo.XXXXXXX   # ← Zenodo発行後に記入
 version: 1.0.0
-date-released: 2026-07-27
+date-released: 2026-07-28
